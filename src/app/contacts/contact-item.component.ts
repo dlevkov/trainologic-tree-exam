@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ContactItemComponent implements OnInit {
   @Input() public item: any;
-  @Input() public level: number = 0;
+  @Input() public level = 0;
   constructor() { }
 
   ngOnInit() {
