@@ -1,0 +1,2 @@
+<dl-contact-item [item]="group" [level]="level" [style.paddingLeft.px]='getPadding()' (click)="isHidden = !isHidden"></dl-contact-item>
+<dl-contact-group [group]="gr" [level]="level + 1" *ngFor="let gr of group.contacts" [hidden]="isHidden"></dl-contact-group>
