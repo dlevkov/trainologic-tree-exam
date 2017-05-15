@@ -9,7 +9,6 @@ import { MdListModule, MdCardModule, MaterialModule } from '@angular/material';
 import { ContactService } from 'app/contacts/contact.service';
 import { ContactsListComponent } from './contacts/contacts-list.component';
 import { ContactItemComponent } from './contacts/contact-item.component';
-import { TreeModule } from 'angular-tree-component';
 import { ContactGroupComponent } from './contacts/contact-group.component';
 
 @NgModule({
@@ -27,8 +26,7 @@ import { ContactGroupComponent } from './contacts/contact-group.component';
     BrowserAnimationsModule,
     MaterialModule,
     MdCardModule,
-    MdListModule,
-    TreeModule
+    MdListModule
   ],
   providers: [ContactService],
   bootstrap: [AppComponent]
